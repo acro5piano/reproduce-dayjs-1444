@@ -7,4 +7,8 @@ dayjs.extend(timezone)
 
 const date = dayjs().tz('America/New_York').startOf('month')
 
-console.log(date.format())
+try {
+  document.write(date.format())
+} catch (e) {
+  document.write(e.message)
+}

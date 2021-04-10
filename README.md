@@ -6,7 +6,7 @@ https://github.com/iamkun/dayjs/issues/1444
 
 ```
 yarn install
-yarn esbuild --bundle index.js --outdir=dist --sourcemap
+node_modules/.bin/esbuild --bundle index.js --outdir=dist --sourcemap
 ```
 
 # Test
@@ -14,3 +14,4 @@ yarn esbuild --bundle index.js --outdir=dist --sourcemap
 ✅ No Error
 
 - Firefox 85.0.2 (64-bit) for Arch Linux
+- Firefox 86.0.1 (64-bit) for Arch Linux
